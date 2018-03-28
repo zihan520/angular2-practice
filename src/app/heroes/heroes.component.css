@@ -1,0 +1,30 @@
+ul .li{
+	list-style: none;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+ul .li .id{
+	width: 50px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	background: #067a81;
+	color: #fff;
+	border-radius: 4px 0 0 4px;
+}
+ul .li .name{
+	display: inline-block;
+	padding-left: 10px;
+	box-sizing: border-box;
+	text-align: left;
+	width: 100px;
+	background: #ccc;
+}
+.selected{
+	color: #fff;
+	background: rgba(14, 166, 168, .6) !important;
+}
